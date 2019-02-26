@@ -5,6 +5,6 @@ function getPriceWithVat(price) {
 }
 
 document.getElementById('getPrice').onclick = () => {
-  const val = document.getElementById('price').value;
+  const val = parseInt(document.getElementById('price').value);
   alert('The price with VAT added is ' + getPriceWithVat(val));
 }
