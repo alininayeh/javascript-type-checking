@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Apple iPhone",
+    "price": 1000
+  },
+  {
+    "name": "Nokia 9",
+    "price": 700
+  },
+  {
+    "name": "Sony Xperia 1",
+    "price": 900
+  },
+  {
+    "name": "Samsung Galaxy 10",
+    "price": 800,
+    "hasVatFreePromo": true
+  },
+  {
+    "name": "Samsung Galaxy Fold",
+    "price": 2000,
+    "hasVatFreePromo": true
+  }
+]

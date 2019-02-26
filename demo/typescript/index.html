@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .row {
+      border: 1px solid #ddd;
+      background: #eee;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>My awesome mobile phone store</h1>
+  <h2>!!!VAT is on us for Samsung Phones!!!</h2>
+  <div class="row">
+      <select id="product"></select>
+  </div>
+  <div class="row">
+    <button id="getPrice">Get price</button>
+  </div>
+  <div class="row">
+      <strong>Price:</strong>
+      <span id="price">0</span>
+    </div>
+  <div class="row">
+    <strong>Total price with VAT:</strong>
+    <span id="totalPrice">0</span>
+  </div>
+  <script src="src/index.js"></script>
+</body>
+</html>
