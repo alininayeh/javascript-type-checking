@@ -4,6 +4,11 @@ class MyApp {
   price = document.querySelector('#price');
   totalPrice = document.querySelector('#totalPrice');
 
+  constructor() {
+    this.getProducts();
+    this.addEvents();
+  }
+
   getProducts() {
     fetch('products.json')
       .then(response => response.json())
@@ -41,11 +46,6 @@ class MyApp {
       this.price.innerHTML = price.price;
       this.totalPrice.innerHTML = price.totalPrice;
     });
-  }
-
-  constructor() {
-    this.getProducts();
-    this.addEvents();
   }
 }
 
